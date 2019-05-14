@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+
+body{margin: 0;	padding: 0; font-family: 'Montserrat', sans-serif;}
+.container{	width: 96%;	max-width: 1200px;	margin: 0 auto;}
+.banner{position: relative;	background: url('../images/banner.png'); width: 100%; height: 500px; background-size: cover; background-repeat: no-repeat; background-position: center center;}
+.bg-gradient{position: absolute; width: 100%; height: 100%;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a2b35+0,000000+100&1+1,0+100 */
+	background: -moz-linear-gradient(top,  rgba(10,43,53,1) 0%, rgba(10,43,52,1) 1%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(10,43,53,1) 0%,rgba(10,43,52,1) 1%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(10,43,53,1) 0%,rgba(10,43,52,1) 1%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2b35', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+/*header*/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{padding: 0;}
+a.navbar-brand{margin: 0; padding: 0;}
+.bg-light{background: none !important;}
+a.nav-link {color: #fff !important; font-weight: 600;}
+a.nav-link.contact {color: #a0612b !important;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {padding-top: 15px;}
+a.nav-link.hvr-fade.current{color: #4b7282 !important;}
+
+/*banner front text*/
+.orange-transparent{position: absolute; color: #fff; width: 100%; text-align: center; top: 230px; font-size: 32px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a0612b+0,a0612b+0,a0612b+0,a0612b+50,a0612b+100&0.3+0,0.25+0,0+0,0.8+51,0+100 */
+background: -moz-linear-gradient(left,  rgba(160,97,43,0) 0%, rgba(160,97,43,0.78) 50%, rgba(160,97,43,0.8) 51%, rgba(160,97,43,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(160,97,43,0) 0%,rgba(160,97,43,0.78) 50%,rgba(160,97,43,0.8) 51%,rgba(160,97,43,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(160,97,43,0) 0%,rgba(160,97,43,0.78) 50%,rgba(160,97,43,0.8) 51%,rgba(160,97,43,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a0612b', endColorstr='#00a0612b',GradientType=1 ); /* IE6-9 */
+}
+.since-1961{font-weight: bold;}
+
+/*DAVIS FRAWLEY Attorneys at Law*/
+.col-lg-3.art-border {border-right: 3px solid #4b7282; text-align: right; padding-top: 60px;}
+.col-lg-3.art-border h1 {font-size: 51px; color: #af784f; font-weight: 600; line-height: 50px;}
+.col-lg-3.art-border p {font-size: 30px; color: #af784f; line-height: 10px; margin: 0;}
+.col-lg-9.art-one-para {padding: 0 15px;}
+.row.art-one {margin: 75px 0;}
+
+/*PRACTICE AREAS*/
+.col-sm-6.col-md-4.col-lg-3 { text-align: center; padding: 17px; /*margin: 5px 10px;*/ font-size: 15px; font-weight: bold; }
+section.practice-areas { background: #577986; padding: 95px 0; }
+.practice-areas h1 { font-size: 32px; color: #fff; text-align: center; font-weight: 400; }
+.practice-areas .row { margin-top: 30px; }
+.col-sm-6.col-md-4.col-lg-3 { background: #0a2b35; color: #fff; font-weight: 500; }
+.col-sm-6.col-md-4.col-lg-3 { border-top: 10px solid #597a87; border-left: 10px solid #597a87; border-right: 10px solid #597a87;}
+.col-sm-6.col-md-4.col-lg-3.contact {background: #03171c;}
+
+/*MORE ABOUT US*/
+section.more-about-us {margin: 95px 0;}
+.col-lg-5.para { padding: 0px; }
+.col-lg-5.para a { background: #4b7282; color: #fff; padding: 8px 22px; font-weight: 500; text-decoration: none; margin-left: 30%; }
+.col-lg-7 .more-about-us-res { width: 100%; height: auto; }
+.excepteur:after {content: ''; display: block; clear: both;}
+
+/*footer*/
+footer {padding: 93px 0 101px 0; background: #0a2b35;}
+footer ul {text-align: center; list-style-type: none; padding: 0;}
+footer ul  li{margin-bottom: 36px;}
+footer li p {color: #fff;}
+footer li:nth-child(2) img { margin: 7px; }
+
+/*PRACTICE AREAS PAGE*/
+.practice-areas-page h1 { font-size: 53px; color: #af784f; font-weight: 600; }
+section.practice-areas-page { padding: 95px 0; }
+.col-sm-6.col-md-4.col-lg-6 { background: #f3ebe5; border-top: 10px solid #fff; border-left: 10px solid #fff; border-right: 10px solid #fff; border-bottom: 10px solid #fff; }
+.col-sm-6.col-md-4.col-lg-6 h3 { margin: 20px auto; color: #4b7282; font-size: 32px; font-weight: 400; }
+.contact-us-btn { text-align: center; margin-top: 34px; }
+.contact-us-btn a { color: #fff; text-decoration: none; padding: 16px 89px; background: #4b7282; font-weight: 500; }
+
+/*ATTORNEYS PAGE*/
+ul.bio { list-style-type: none; padding: 0; }
+img.attorney-img { width: 100%; }
+.bio span { font-size: 32px; color: #4b7282; padding-left: 10px; }
+img.email-icon { float: right; margin: 10px; }
+.bio li a { color: #fff; text-decoration: none; padding: 12px 45px; background: #4b7282; font-weight: 500; }
+.bio li:nth-child(3) { padding-top: 10px; }
+.col-sm-6.col-md-4.col-lg-4.profile { background: #f3ebe5; border: 11px solid #fff; padding: 0 0 17px 0; }
+
+/*READ BIO*/
+.bg-read-bio { background: #f3ebe5; }
+.col-sm-6.col-lg-3.bg-read-bio { border: 11px solid #fff; padding: 15px 20px; }
+.col-sm-6.col-lg-3.bg-read-bio span { font-style: italic; }
+.col-sm-6.col-lg-3.bg-read-bio h2 { color: #6d8a96; font-weight: 400; }
+h2.attorney-name { color: #4b7282; font-weight: 400; padding: 30px 0 10px 0; }
+.container.bio-border { border-bottom: 3px solid #4b7282; padding-bottom: 10px; }
+.container.back { padding: 0; margin-top: 35px; }
+.container.back a { color: #fff; text-decoration: none; padding: 15px 68px; background: #4b7282; font-weight: 500; }
+.container.bio-border.read-bio { padding: 0; }
+
+/*ABOUT*/
+.about-img { float: right; }
+img.about-img { padding: 0 0 17px 17px; }
+h2 { color: #4b7282; padding: 10px 0 10px 0; font-weight: 400; }
+h3 { color: #bf9372; font-weight: 400; padding: 10px 0 10px 0; }
+.bullet-style li {list-style-type: none;}
+.bullet-style li::before { content: "\2022"; color: #4b7282; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; }
+.doloribus { color: #638593; }
+
+/*CONTACT*/
+.col-lg-4.field { padding-right: 10px; padding-left: 10px; }
+.form-control { border-radius: 0; }
+.col-lg-12.contact-info-col { padding: 0; }
+.col-lg-12.contact-info-col p { text-align: center; background: #4b7282; color: #fff; padding: 20px 0; margin: 0; }
+.form-control { background: #f3ebe5; border: 1px solid #fff; }
+.form-control:focus { background-color: #f3ebe5; border-color: #d7bca7; box-shadow: 0 0 0 .2rem rgb(215, 188, 167); }
+.btn-primary { background-color: #4b7282; border-color: #4b7282; }
+.btn { border-radius: 0; margin: 15px; padding: 10px 60px;}
+.btn-primary:hover {background-color: #4b7282; border-color: #4b7282;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
