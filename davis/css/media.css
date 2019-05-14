@@ -1,0 +1,17 @@
+/*nav*/
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 1.7rem;
+	    padding-left: 1.7rem;
+	}
+}
+
+/*PRACTICE AREAS*/
+/*@media (min-width: 992px){
+	.col-lg-3 {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 25%;
+	    flex: 0 0 25%;
+	    max-width: 23%;
+	}
+}*/
